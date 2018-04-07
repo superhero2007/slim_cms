@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<movies>
+	<movie name="GreenBizCheck Full Corporate Video" path="greenbizcheck_full_corporate_video" file="/_images/movies/greenbizcheck_short.m4v" splash="/_images/movies/greenbizcheck_short.jpg" />
+	<movie name="Short Green Business Certification" path="short_green_business_certification_video" file="/_images/movies/greenbizcheck_long.m4v" splash="/_images/movies/greenbizcheck_long.jpg" />
+	<movie name="GreenBizCheck Assessment Demo" path="greenbizcheck_assessment_demo" file="/_images/movies/greenbizcheck_assessment_demo.m4v" splash="/_images/movies/greenbizcheck_assessment_demo.jpg" />
+	<movie name="Nicholas Bernhardt Sky News November 2010" path="nicholas_bernhardt_sky_news_november_2010" file="/_images/movies/nicholas_bernhardt_sky_news_november_2010.m4v" splash="/_images/movies/nicholas_bernhardt_sky_news_november_2010.jpg" />
+</movies>

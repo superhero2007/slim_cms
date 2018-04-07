@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+
+/* Override CSS for thesupplychaintracker.com */
+
+body {
+    background-color: #fcfcfc;
+    background: #fcfcfc;
+}
+
+footer {
+    background: #fcfcfc;
+    border-top: 1px solid #e0eded;
+}
+
+.footer-image-links img {
+    height: 30px;
+    margin-left: 20px;
+    float: right;
+}
+
+.pl125 {
+    padding-left: 125px;
+}
+
+.scst.icon-block.icon-block-1 .icon-block-item,
+.scst.icon-block.icon-block-1 .icon-block-body {
+    display: inline-block;
+}
+
+.scst.icon-block.icon-block-1 .icon-block-body {
+    width: 75%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.navbar-wp {
+    background: rgb(255, 35, 16);
+}
+
+.navbar-wp .navbar-nav>li>a:hover,
+.navbar-wp .navbar-nav>li>a:focus {
+    color: #333;
+    background-color: rgb(243, 168, 50);
+    border-top: 3px solid rgb(243, 168, 50);
+}
+
+.navbar-wp .navbar-nav>li>a,
+.navbar-wp .navbar-nav>li>a.dropdown-form-toggle {
+    color: #ffffff;
+}
+
+header .navbar-wp a.navbar-brand img.header-image {
+    max-height: 77px;
+}
+
+header .navbar-wp .navbar-brand {
+    margin-top: 0px;
+}
+
+.slice.light-gray .btn-b-white {
+    background-color: transparent;
+    border: 2px solid #333;
+    color: #333 !important;
+}
+
+.slice.light-gray .btn-b-white:hover {
+    background-color: #333 !important;
+    border: 2px solid #333;
+    color: #333 !important;
+}
+
+.slice.light-gray .btn-b-white:hover i {
+    color: #fff !important;
+}
+
+#header-nav ul.main-nav li a span {
+    line-height: 12px;
+}
+
+
+/* Dashboard CSS */
+
+.dashboard-body .wrapper>.aside,
+.dashboard-body .topnavbar .nav-wrapper,
+.dashboard-body .topnavbar,
+.dashboard-body .sidebar,
+.dashboard-body .topnavbar .navbar-header {
+    background: rgb(255, 35, 16);
+}
+
+.dashboard-body .brand-logo img {
+    max-height: 55px;
+}
+
+.dashboard-body .topnavbar .navbar-header .brand-logo {
+    padding: 0px;
+}
+
+.dashboard-body .sidebar .nav>li>a,
+.dashboard-body .sidebar .nav>li>.nav-item,
+.dashboard-body .topnavbar .navbar-nav>li>a,
+.dashboard-body .topnavbar .navbar-nav>.open>a {
+    color: #ffffff;
+}
+
+.dashboard-body .sidebar .nav>li>a:focus,
+.dashboard-body .sidebar .nav>li>.nav-item:focus,
+.dashboard-body .sidebar .nav>li>a:hover,
+.dashboard-body .sidebar .nav>li>.nav-item:hover,
+.dashboard-body .topnavbar .navbar-nav li a:hover {
+    color: #e1e2e3;
+}
+
+body.dashboard-body {
+    background-color: #f5f7fa;
+}
+
+.panel.contract-category-panel h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(101, 101, 101);
+    text-decoration: none;
+}
+
+a.contract-category-panel-link {
+    text-decoration: none;
+}
+
+a.contract-category-panel-link:hover .panel {
+    background-color: #e1e2e3;
+}
+
+.dashboard-body .gbc-data-table .fa-search:before {
+    content: "\f06e";
+}

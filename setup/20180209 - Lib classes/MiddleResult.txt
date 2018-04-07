@@ -1,0 +1,198 @@
+E:\work\Project\PHP\greenbizcheck.com\system\admin\analytics\analytics.php:
+  144: 			$clientChecklist = new clientChecklist($this->db);
+  148: 			$pivotTable = new pivotTable($this->db);	
+  155: 			$csvBuilder = new csvBuilder($this->db);
+E:\work\Project\PHP\greenbizcheck.com\system\admin\checklists\checklists.php:
+    2: $assessmentTools = new assessmentTools($this->db);
+E:\work\Project\PHP\greenbizcheck.com\system\admin\clients\clients.php:
+  273: 	$cc = new clientChecklist($this->db);
+  425: 	$clientEmail = new clientEmail($this->db);
+  460: 		$password = new password($db);
+  625: 				$PartnerInformation = new billing($this->db);
+  979: 			$invoice = new invoice($this->db);
+ 1072: 			$pdfInvoice = new pdfInvoice($this->db);
+E:\work\Project\PHP\greenbizcheck.com\system\admin\randomizer\randomizer.php:
+    3: $randomizer = new randomizer($this->db);
+   62: 				$clientChecklist = new clientChecklist($this->db);
+   63: 				$assessmentTools = new assessmentTools($this->db);
+E:\work\Project\PHP\greenbizcheck.com\system\admin\scripts\scripts.php:
+   15: 				$password = new password($this->db);
+   28: 				$client = new client($this->db);
+   49: 					$clientChecklist = new clientChecklist($this->db);
+   56: 				$gdacs = new gdacs($this->db);
+   62: 				$clientUtils = new clientUtils($this->db);
+
+E:\work\Project\PHP\greenbizcheck.com\system\audit\audit\audit.php:
+    3: $auditDoc = new auditDocument($this->db);
+   41: 			$audit_cost = new auditCost($this->db);
+  204: 	$clientChecklist = new clientChecklist($this->db);
+E:\work\Project\PHP\greenbizcheck.com\system\cron\followup.job.php:
+   17: $followup = new followup($db);
+   26: 		$this->clientEmail = new clientEmail($this->db);
+   27: 		$this->clientChecklist = new clientChecklist($this->db);
+E:\work\Project\PHP\greenbizcheck.com\system\cron\gdacsUpdate.job.php:
+    4: 	$gdacs = new gdacs($db);
+
+E:\work\Project\PHP\greenbizcheck.com\system\cron\geoLocate.job.php:
+    2: 	$client = new client($db);
+
+E:\work\Project\PHP\greenbizcheck.com\system\cron\outstandingAuditReport.job.php:
+    2: $outstandingAuditReport = new outstandingAuditReport($db);
+E:\work\Project\PHP\greenbizcheck.com\system\lib\admin.class.php:
+   11: 		$this->session = new sessionCookie(SESSION_COOKIE);
+   15: 		$this->db = new db(DB_HOST,DB_USER,DB_PASS);
+  143: 		//$this->session = new sessionCookie(SESSION_COOKIE);
+
+E:\work\Project\PHP\greenbizcheck.com\system\lib\adminContent.class.php:
+   23: 		$this->debug = new debug($this->doc);
+
+E:\work\Project\PHP\greenbizcheck.com\system\lib\api.class.php:
+   26: 		$this->dbModel = new dbModel($this->db);
+  175: 			$client = new client($this->db);
+  191: 			$clientChecklist = new clientChecklist($this->db);
+  386: 		$contact = new clientContact($this->db);
+  454: 		$dashboard = new dashboard($this->db);
+  487: 		$gdacs = new gdacs($this->db);
+
+E:\work\Project\PHP\greenbizcheck.com\system\lib\assessmentTools.class.php:
+   55: 		$clientChecklist = new clientChecklist($this->db);
+
+E:\work\Project\PHP\greenbizcheck.com\system\lib\audit.class.php:
+   22: 		$this->session = new sessionCookie(SESSION_COOKIE);
+
+E:\work\Project\PHP\greenbizcheck.com\system\lib\auditCost.class.php:
+   40: 		$inv = new invoice($this->db);
+   87: 		$client_checklist = new clientChecklist($this->db);
+
+E:\work\Project\PHP\greenbizcheck.com\system\lib\auditDocument.class.php:
+  185: 		$auditCost = new auditCost($this->db);
+
+E:\work\Project\PHP\greenbizcheck.com\system\lib\client.class.php:
+   78: 		$clientAddress = new clientAddress($this->db);
+   79: 		$clientCoordinates = new clientCoordinates($this->db);
+   80: 		$mapping = new mapping($this->db);
+
+E:\work\Project\PHP\greenbizcheck.com\system\lib\clientChecklist.class.php:
+    8: 		$this->dbModel = new dbModel($this->db);
+ 1983: 		$fileDownload = new fileDownload($this->db);
+ 2514: 		$objects->clientUtils = new clientUtils($this->db);
+ 4241: 		$this->clientChecklist = new clientChecklist($this->db);
+ 4361: 			$clientChecklistFunction = new clientChecklistFunction($this->db, $client_checklist_id);
+ 5869: 		$client = new client($this->db);
+
+E:\work\Project\PHP\greenbizcheck.com\system\lib\clientChecklistFunction.class.php:
+   16: 		$this->clientChecklistClass = new clientChecklist($this->db);
+
+E:\work\Project\PHP\greenbizcheck.com\system\lib\clientContact.class.php:
+  103: 		$dashboard = new dashboard($this->db);
+  346: 			$password = new password($this->db);
+
+E:\work\Project\PHP\greenbizcheck.com\system\lib\clientEmail.class.php:
+   13: 		$objects->clientUtils		= new clientUtils($this->db);
+   14: 		$objects->clientChecklist	= new clientChecklist($this->db);
+   54: 		$clientUtils = new clientUtils($this->db);
+
+E:\work\Project\PHP\greenbizcheck.com\system\lib\conversion.class.php:
+  203:         return new conversion($value, $unit);
+
+E:\work\Project\PHP\greenbizcheck.com\system\lib\core.class.php:
+   23: 		$this->db = new db(DB_HOST,DB_USER,DB_PASS);
+   24: 		$this->debug = new debug($this->doc);
+   25: 		$this->session = new sessionCookie(SESSION_COOKIE);
+
+E:\work\Project\PHP\greenbizcheck.com\system\lib\dashboard.class.php:
+    9: 		$this->dbModel = new dbModel($this->db);
+
+E:\work\Project\PHP\greenbizcheck.com\system\lib\emailToStaff.class.php:
+   13: 		$clientUtils = new clientUtils($this->db);
+   17: 		$clientChecklist = new clientChecklist($this->db);
+   69: 		$mailer = new mailer($this->db);
+
+E:\work\Project\PHP\greenbizcheck.com\system\lib\ghg.class.php:
+   33:         return new ghg($db);
+  325:         $clientChecklist = new clientChecklist($this->db);
+
+E:\work\Project\PHP\greenbizcheck.com\system\lib\invoice.class.php:
+  371: 			$distribution = new billing($this->db);
+  540: 		$clientEmail = new clientEmail($this->db);
+  560: 			$objects->clientUtils		= new clientUtils($this->db);	
+  575: 			$invoiceFop = new fopRenderer($invoice_template, @$doc);
+
+E:\work\Project\PHP\greenbizcheck.com\system\lib\pointOfSale.class.php:
+   14: 		$clientChecklist = new clientChecklist($this->db);
+E:\work\Project\PHP\greenbizcheck.com\system\lib\queryBuilder.class.php:
+   41: 						$dashboard = new dashboard($this->db);
+
+E:\work\Project\PHP\greenbizcheck.com\system\lib\resultFilter.class.php:
+   16: 			$resultFilter = new resultFilter($db, $contact);
+  404: 		$queryBuilder = new queryBuilder($this->db);
+
+E:\work\Project\PHP\greenbizcheck.com\system\plugin\cart\cart.class.php:
+    8: 		$this->certification = new certification($GLOBALS['core']->db);
+   70: 			$paypal = new PayPalEWP();
+
+E:\work\Project\PHP\greenbizcheck.com\system\plugin\chartjs\chartjs.class.php:
+   10: 		$this->clientChecklist = new clientChecklist($this->clientChecklist);
+
+E:\work\Project\PHP\greenbizcheck.com\system\plugin\checklist\checklist.class.php:
+   10: 			$this->clientChecklist = new clientChecklist($this->db);
+  553: 			$answersFop = new fopRenderer('assessment-answer', @$this->doc);
+ 1572: 			$clientModel = new client($this->db);
+ 1612: 	 	$this->ghg = new greenHouseGasCalculations($this->db);
+ 1633: 			$auditDocument = new auditDocument($this->db);
+ 1900: 		$ghg = new ghg($this->db);
+ 1923: 		$contactModel = new clientContact($db);
+ 2079: 					$clientEmail = new clientEmail($this->db);
+ 2657: 						$fileDownload = new fileDownload($this->db);
+ 3110: 		$timeAndDate = new timeAndDate();
+ 3204: 		$clientChecklistFunction = new clientChecklistFunction($this->db, $client_checklist_id);
+ 3220: 				$fileRenderer = new fileRenderer();
+ 3284: 		$dashboard = new dashboard($this->db);
+
+E:\work\Project\PHP\greenbizcheck.com\system\plugin\clients\clients.class.php:
+   17: 		$this->clientUtils = new clientUtils($this->db);
+  117: 					$clientEmail = new clientEmail($this->db);
+  121: 						$password = new password($this->db);
+  616: 			$captcha = new captcha($this->db);
+  636: 		$client = new client($this->db);
+  642: 		$clientContact = new clientContact($this->db);
+  650: 				$pos = new pointOfSale($this->db);
+  825: 		$dashboard = new dashboard($this->db);
+  930: 				$password = new password($this->db);
+  946: 					$clientRole = new clientRole($this->db);
+
+E:\work\Project\PHP\greenbizcheck.com\system\plugin\dashboardContent\dashboardContent.class.php:
+   25: 		$this->dbModel = new dbModel($this->db);
+   28: 		$this->clientChecklist = new clientChecklist($this->db);
+   29: 		$this->clientClass = new client($this->db);
+   32: 		$this->dashboard = new dashboard($this->db);
+   45: 				$this->resultFilter = new resultFilter($this->db, $this->contact);
+   64: 			$fileRenderer = new fileRenderer();
+  385: 		$gdacs = new gdacs($this->db);
+ 1169: 						$clientContact = new clientContact($this->db);
+ 1250: 				$pivotTable = new pivotTable($this->db);	
+ 1257: 				$csvBuilder = new csvBuilder($this->db);
+ 1926: 		$queryBuilder = new queryBuilder($this->db);
+ 2355: 		$ghg = new ghg($this->db);
+
+E:\work\Project\PHP\greenbizcheck.com\system\plugin\form\form.class.php:
+   17: 		$captcha = new captcha($this->db);
+
+E:\work\Project\PHP\greenbizcheck.com\system\plugin\moduleAccess\moduleAccess.class.php:
+   78: 		$dashboard = new dashboard($this->db);
+
+E:\work\Project\PHP\greenbizcheck.com\system\plugin\pos\pos.class.php:
+  111: 		$invoiceObj = new invoice($this->db);
+  148: 		$invoiceFop = new fopRenderer($invoice_template, @$doc);	
+  212: 				$pos = new pointOfSale($GLOBALS['core']->db);
+  483: 						$paypal = new PayPalEWP();
+  569: 	 	$PartnerInformation = new billing($this->db);
+  870: 		$account_owner_details = new clientContact($GLOBALS['core']->db);
+  874: 		$clientEmail = new clientEmail($GLOBALS['core']->db);
+  877: 		$client_deatils = new client($GLOBALS['core']->db);
+  919: 			$sendmail = new mailer($GLOBALS['core']->db);
+
+E:\work\Project\PHP\greenbizcheck.com\system\plugin\stamps\stamps.class.php:
+    6: 		$this->clientChecklist = new clientChecklist($this->db);
+   33: 		$contactModel = new clientContact($db);
+   34: 		$clientModel = new client($db);

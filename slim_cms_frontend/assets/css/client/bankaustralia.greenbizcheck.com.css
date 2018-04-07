@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+
+/* Override CSS for bankaustralia.greenbizcheck.com */
+
+footer {
+    background: #fcfcfc;
+    border-top: 1px solid #e0eded;
+}
+
+.footer-image-links img {
+    height: 30px;
+    margin-left: 20px;
+    float: right;
+}
+
+body.home {
+    background-image: url('/images/bank-australia-background.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+body.home .footer {
+    display: none;
+}
+
+header .navbar-wp .navbar-brand {
+    margin-top: 0px;
+}
+
+section.slice.padding-none {
+    padding-top: 0px;
+}
+
+.navbar-wp .navbar-nav>li>a,
+.navbar-wp .navbar-nav>li>a:hover,
+.navbar-wp .navbar-nav>li>a:focus,
+.navbar-wp .navbar-nav>li>a.dropdown-form-toggle,
+.navbar-wp .navbar-nav>li>a.dropdown-form-toggle:hover,
+.navbar-wp .navbar-nav>li>a.dropdown-form-toggle:focus {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border: 0px;
+    line-height: 98px;
+    background: none;
+    text-transform: none;
+}
+
+.navbar-wp .navbar-nav>li a:hover,
+.navbar-wp .navbar-nav>li>a.dropdown-form-toggle:hover i {
+    color: #d3007e;
+}
+
+.navbar-toggle:hover,
+.navbar-toggle:focus {
+    background-color: #d3007e;
+    background: #d3007e;
+    border-color: #d3007e;
+}
+
+body {
+    background-color: #fcfcfc;
+    background: #fcfcfc;
+}
+
+.navbar-wp .navbar-nav>li>a.dropdown-form-toggle,
+.navbar-wp .navbar-nav>li>a.dropdown-form-toggle:hover,
+.navbar-wp .navbar-nav>li>a.dropdown-form-toggle:focus {
+    padding-top: 40px;
+}
+
+.navbar-wp.navbar-arrow .navbar-nav>li.open>a:after {
+    display: none;
+}
+
+.navbar-toggle-aside-menu {
+    margin-top: 32px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #222;
+    font-family: FSMeWeb-Regular, Helvetica, Arial, Sans-Serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.4;
+    margin-bottom: 0.75rem;
+    margin-top: 1.5rem;
+    text-rendering: optimizeLegibility;
+}
+
+div.feature-block-black {
+    padding: 30px;
+    color: #ffffff;
+    font-size: 25px;
+    line-height: 32px;
+    margin-top: 150px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+div.feature-block-black p {
+    font-size: 25px;
+    line-height: 32px;
+    margin-bottom: 30px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.dashboard-body .topnavbar .navbar-header .brand-logo img {
+    height: 55px;
+}
+
+.dashboard-body .topnavbar .navbar-header .brand-logo {
+    background-color: #ffffff;
+    padding: 0px;
+}

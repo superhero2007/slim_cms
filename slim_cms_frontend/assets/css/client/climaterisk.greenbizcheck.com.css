@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+
+/* Override CSS for climaterisk.greenbizcheck.com */
+
+
+/* Home Page */
+
+body.home {
+    background-image: url('/images/climate-risk-background.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+body.home footer {
+    display: none;
+}
+
+body.home .navbar-wp {
+    border-bottom: 0px;
+    background: transparent;
+}
+
+body.home .navbar-wp .navbar-nav>li>a,
+body.home .navbar-wp .navbar-nav>li>a.dropdown-form-toggle,
+body.home .navbar-wp .navbar-nav>li>a.dropdown-form-toggle:hover {
+    color: #ffffff !important;
+}
+
+body.home,
+body.home h4,
+body.home h1,
+body.home a,
+body.home a:hover,
+body.home a:visited,
+body.home a:active {
+    color: #ffffff;
+    line-height: 1.5em;
+    font-weight: 100;
+}
+
+body.home img.header-image {
+    display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url(/images/greenbizcheck-cloud-logo-white.png) no-repeat;
+    width: 220px;
+    /* Width of new image */
+    height: 35px;
+    /* Height of new image */
+    padding-left: 220px;
+    /* Equal to width of new image */
+    background-size: cover;
+}
+
+.footer-image-links img {
+    height: 30px;
+    margin-left: 20px;
+    float: right;
+}
+
+body.home h1 {
+    font-family: 'Oxygen', sans-serif;
+    letter-spacing: 3px;
+    font-weight: inherit;
+    font-size: 60px;
+    line-height: 1.1em;
+}
+
+body.home .body-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    position: absolute;
+    width: 100%;
+}
+
+.password-recovery,
+.entry-header-button {
+    display: none;
+}

@@ -1,0 +1,250 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+
+/* Override CSS for twe.greenbizcheck.com */
+
+
+/* Home Page */
+
+body.home {
+    background-image: url('/images/twe-background.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+body.home footer {
+    display: none;
+}
+
+body.home .navbar-wp {
+    border-bottom: 0px;
+    background: transparent;
+}
+
+
+/* Dark Display */
+
+@media(min-width:992px) {
+    body.home .navbar-wp .navbar-nav>li>a,
+    body.home .navbar-wp .navbar-nav>li>a.dropdown-form-toggle {
+        color: #ffffff;
+    }
+}
+
+@media(max-width:992px) {
+    body.home .navbar-wp .navbar-nav>li>a {
+        color: #000000;
+    }
+}
+
+body.home .navbar-toggle {
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+body.home,
+body.home h4,
+body.home h1,
+body.home a,
+body.home a:hover,
+body.home a:visited,
+body.home a:active {
+    color: #ffffff;
+    line-height: 1.5em;
+    font-weight: 100;
+}
+
+body.home h1 {
+    font-size: 35px;
+}
+
+body.home h4 {
+    text-transform: none;
+}
+
+body {
+    background-color: #484c4f;
+    background: #484c4f;
+}
+
+footer {
+    padding-top: 0px;
+    background: #484c4f;
+    border-top: none;
+    color: #bfbfbf;
+}
+
+footer .footer-top {
+    display: block;
+    background: url(/images/twe-footer-separator.jpg) repeat-x top center;
+    height: 7px;
+    margin-bottom: 2.5em;
+}
+
+.navbar-wp .navbar-nav>li>a:hover,
+.navbar-wp .navbar-nav>li>a:focus {
+    background-color: #C9000F;
+    border-top: 3px solid #C9000F;
+}
+
+.footer-image-links img {
+    height: 30px;
+    margin-left: 20px;
+    float: right;
+}
+
+ul.members-menu-list li .icon-block-item:hover i,
+ul.members-menu-list li .icon-block-item:active i {
+    color: #C9000F;
+}
+
+.base {
+    background: #C9000F;
+}
+
+.pg-opt {
+    background: #efefef;
+}
+
+header .navbar-wp a.navbar-brand img.header-image {
+    margin-top: 10px;
+    max-width: 250px;
+}
+
+.brand-logo {
+    margin-top: 7px;
+}
+
+
+/* Other Styling */
+
+.twe.wp-block.icon-square.success .img-icon-wrapper {
+    background-color: #27c24c;
+    color: #fff!important;
+}
+
+.twe.wp-block.icon-square.success.arrow-down .img-icon-wrapper:after {
+    border-top-color: #27c24c;
+}
+
+.twe.wp-block.icon-square.warning .img-icon-wrapper {
+    background-color: #ff902b;
+    color: #fff!important;
+}
+
+.twe.wp-block.icon-square.warning.arrow-down .img-icon-wrapper:after {
+    border-top-color: #ff902b;
+}
+
+.twe.wp-block.icon-square .img-icon-wrapper i {
+    color: #ffffff;
+}
+
+.twe.wp-block.icon-square .img-icon-wrapper.site {
+    width: 100%;
+    min-height: 120px;
+    padding-bottom: 10px;
+}
+
+.twe.wp-block {
+    margin: 0 0 15px 0;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    position: relative;
+    cursor: default;
+    border-radius: 2px;
+}
+
+.twe.wp-block.icon-square .img-icon-wrapper {
+    width: 210px;
+    padding: 20px;
+    border-radius: 3px;
+    background: #FFD600;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    position: relative;
+    background: #3498db;
+}
+
+.twe.wp-block.icon-square.arrow-down .img-icon-wrapper:after {
+    top: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-top-color: #3498db;
+    border-width: 20px;
+    margin-left: -20px;
+}
+
+.twe.wp-block.icon-square.arrow-down .img-icon-wrapper .img-icon {
+    display: block;
+    text-align: center;
+    margin: 5px 0;
+}
+
+.twe.wp-block.icon-square.arrow-down .img-icon-wrapper .img-icon i {
+    font-size: 40px;
+}
+
+.twe.wp-block.icon-square.arrow-down .img-icon-wrapper .img-icon h5 {
+    font-size: 17px;
+    font-weight: 700px;
+    margin-bottom: 5px;
+}
+
+
+/* Dashboard */
+
+body.dashboard-body,
+body.dashboard-body footer {
+    background: inherit;
+    background-color: inherit;
+}
+
+body.dashboard-body .wrapper>section {
+    background-color: #ffffff;
+}
+
+.entry.metric.icon.information {
+    right: 10px;
+    position: absolute;
+    top: 50%;
+}
+
+@media (min-width: 1200px) {
+    .entry.question.table-format .question-content,
+    .entry.table-header.table-format .question-header {
+        width: 50%;
+    }
+    .entry.question.table-format .radio,
+    .entry.table-header.table-format .answer-header {
+        width: 95px;
+    }
+}
+
+.wp-block.no-space>.wp-block-body {
+    min-height: auto;
+    margin-top: 0px;
+}
+
+.twe-action-item hr {
+    border-color: #ccc;
+}
+
+.twe-action-item .action-item-count {
+    padding-right: 10px;
+    color: #C9000F;
+}
+
+.twe-action-item select {
+    -moz-appearance: menulist-button !important;
+    -webkit-appearance: menulist-button !important;
+}

@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+
+/* Override CSS for anz.greenbizcheck.com */
+
+footer {
+    background: #fcfcfc;
+    border-top: 1px solid #e0eded;
+}
+
+.footer-image-links img {
+    height: 30px;
+    margin-left: 20px;
+    float: right;
+}
+
+body.home {
+    background-image: url('/images/anz-background-dark.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+body.home p.sub-heading {
+    font-family: Oxygen, sans-serif;
+    margin-top: 25px;
+    font-weight: 300;
+    font-size: 28px;
+    padding-right: 60px;
+    padding-left: 60px;
+    line-height: 1.6;
+    color: #ffffff;
+}
+
+body.home #divHeaderWrapper {
+    display: none;
+}
+
+body.home .footer {
+    display: none;
+}
+
+body.home .navbar-wp {
+    background: transparent;
+    border-bottom: none;
+}
+
+body.home .navbar-wp .navbar-nav>li>a {
+    color: #ffffff;
+}
+
+header .navbar-wp .navbar-brand {
+    margin-top: 25px;
+}
+
+section.slice.padding-none {
+    padding-top: 0px;
+}
+
+.navbar-wp .navbar-nav>li>a,
+.navbar-wp .navbar-nav>li>a:hover,
+.navbar-wp .navbar-nav>li>a:focus,
+.navbar-wp .navbar-nav>li>a.dropdown-form-toggle,
+.navbar-wp .navbar-nav>li>a.dropdown-form-toggle:hover,
+.navbar-wp .navbar-nav>li>a.dropdown-form-toggle:focus {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border: 0px;
+    line-height: 98px;
+    background: none;
+    text-transform: none;
+}
+
+.navbar-wp .navbar-nav>li a:hover,
+.navbar-wp .navbar-nav>li>a.dropdown-form-toggle:hover i {
+    color: #0A71B2
+}
+
+.navbar-toggle:hover,
+.navbar-toggle:focus {
+    background-color: #0A71B2;
+    background: #0A71B2;
+    border-color: #0A71B2;
+}
+
+body {
+    background-color: #fcfcfc;
+    background: #fcfcfc;
+}
+
+.navbar-wp .navbar-nav>li>a.dropdown-form-toggle,
+.navbar-wp .navbar-nav>li>a.dropdown-form-toggle:hover,
+.navbar-wp .navbar-nav>li>a.dropdown-form-toggle:focus {
+    padding-top: 40px;
+}
+
+.navbar-wp.navbar-arrow .navbar-nav>li.open>a:after {
+    display: none;
+}
+
+.navbar-toggle-aside-menu {
+    margin-top: 32px;
+}
+
+div.feature-block-black {
+    padding: 30px;
+    color: #ffffff;
+    font-size: 25px;
+    line-height: 32px;
+    margin-top: 375px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+div.feature-block-black p {
+    font-size: 25px;
+    line-height: 32px;
+    margin-bottom: 30px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.anz-blue {
+    color: #007DBA;
+}
+
+.reportContainer .actionDemeritValue {
+    display: none;
+}
+
+.reportContainer .report-section-score,
+.reportContainer .report-section-score-title {
+    display: none;
+}

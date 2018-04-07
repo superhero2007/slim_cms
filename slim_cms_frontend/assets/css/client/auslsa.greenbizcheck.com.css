@@ -1,0 +1,435 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+
+/* Override CSS for auslsa.greenbizcheck.com */
+
+body {
+    background-color: #fcfcfc;
+    background: #fcfcfc;
+}
+
+body.dashboard-body {
+    /* background-color:#ffffff;
+  background:#ffffff;*/
+    background-color: #f5f7fa;
+    background: #f5f7fa;
+}
+
+footer {
+    background: #fcfcfc;
+    border-top: 1px solid #e0eded;
+}
+
+.footer-image-links img {
+    height: 30px;
+    margin-left: 20px;
+    float: right;
+}
+
+header .navbar-wp .navbar-brand {
+    margin-top: 5px;
+}
+
+header .navbar-wp a.navbar-brand img.header-image {
+    max-height: 65px;
+}
+
+.panel-default>.panel-heading+.panel-collapse>.panel-body {
+    color: #333333;
+}
+
+body .body-content .form-control,
+.c-checkbox span,
+.c-radio span,
+.data-table .btn.buttons-html5,
+.input-group-addon {
+    border-color: #98a0a2;
+}
+
+body .body-content .form-control,
+.c-checkbox span,
+.c-radio span,
+body .slider-track,
+.input-group-addon,
+.chosen-single,
+.chosen-container-multi .chosen-choices {
+    border: 1px solid #98a0a2 !important;
+}
+
+.chosen-container .chosen-drop {
+    border: 1px solid #98a0a2 !important;
+    border-top: 0 !important;
+}
+
+.entry.question.icon {
+    color: #98a0a2;
+}
+
+.display-date.day,
+.display-date.month,
+.display-date.year,
+.display-date.separator,
+.display-date.finish_day,
+.display-date.finish_month {
+    display: none;
+}
+
+.entry.question-content.dynamic-content .entry.question.icon.required.fa.fa-asterisk {
+    display: none;
+}
+
+@media (min-width: 992px) {
+    .entry.steps.layered.page-sections ul li.page-section {
+        width: 16.666666666666% !important;
+        /* 6 Page Sections Forced on one single line */
+    }
+}
+
+
+/* Hidden Items */
+
+.dynamic-paper-consumption .previous-result.question-id-13860,
+.dynamic-paper-consumption .previous-result.question-id-13861,
+.dynamic-paper-consumption .previous-result.question-id-13859,
+.dynamic-paper-consumption .answer-33291,
+.number-of-impressions .answer-33290,
+.number-of-impressions .previous-result.question-id-13854,
+.number-of-impressions .previous-result.question-id-13855,
+.number-of-impressions .previous-result.question-id-13857,
+.number-of-impressions .previous-result.question-id-13858,
+.number-of-impressions .previous-result.question-id-13859,
+.number-of-impressions .previous-result.question-id-13860,
+.number-of-impressions .previous-result.question-id-13861,
+.double-sided-impressions .previous-result.question-id-13854,
+.double-sided-impressions .previous-result.question-id-13855,
+.double-sided-impressions .previous-result.question-id-13856,
+.double-sided-impressions .previous-result.question-id-13857,
+.double-sided-impressions .previous-result.question-id-13858,
+.double-sided-impressions .previous-result.question-id-13860,
+.double-sided-impressions .previous-result.question-id-13861,
+.double-sided-impressions .answer-33290 {
+    display: none;
+}
+
+.topnavbar .navbar-header .brand-logo {
+    display: none;
+}
+
+
+/* AusLSA Branding */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul.members-menu-list li .icon-block-item:hover i {
+    color: #77a837;
+}
+
+#toTopHover,
+.btn-base,
+.base,
+.bg-base,
+.body-content input[type="submit"],
+.body-content button[type="button"],
+.topnavbar .nav-wrapper,
+.topnavbar,
+.sidebar,
+.topnavbar .navbar-header,
+.c-checkbox input[type=checkbox]:checked+span,
+.c-radio input[type=checkbox]:checked+span,
+.c-checkbox input[type=radio]:checked+span,
+.c-radio input[type=radio]:checked+span {
+    background-color: #77a837;
+    background: #77a837;
+    border-color: #699035;
+    color: #ffffff;
+}
+
+.c-checkbox:hover span,
+.c-radio:hover span {
+    border-color: #699035;
+}
+
+.entry.steps.layered.page-sections ul li.page-section.complete a,
+.entry.steps.pages ul li.page-section-page.complete a {
+    background: #77a837;
+    color: #ffffff;
+}
+
+.entry.steps.layered.page-sections ul li.page-section.current a,
+.entry.steps.pages ul li.page-section-page.current a {
+    background: #f77600;
+}
+
+.entry.steps.layered.page-sections ul li.page-section.current a:hover,
+.entry.steps.pages ul li.page-section-page.current a:hover {
+    background: #76A140;
+}
+
+.btn-base:hover,
+.btn-base:active,
+.btn-base:focus {
+    background-color: #76A140;
+    border-color: #76A140;
+}
+
+.btn-base:before {
+    background-color: #578022;
+}
+
+.pg-opt h2,
+.modal-title {
+    color: #ffffff;
+}
+
+.pg-opt {
+    border-bottom: 1px solid #ffffff;
+    background: #77a837;
+    color: #77a837;
+}
+
+.pg-opt .breadcrumb a,
+.pg-opt .breadcrumb a:hover {
+    color: #ffffff;
+}
+
+.slice.member-nav {
+    background: #121212 !important;
+}
+
+.sidebar .nav>li>a:focus,
+.sidebar .nav>li>.nav-item:focus,
+.sidebar .nav>li>a:hover,
+.sidebar .nav>li>.nav-item:hover,
+.topnavbar .navbar-nav li a:hover {
+    color: #ffffff;
+}
+
+a,
+a.blue-underscore-link,
+a.default-link,
+.sky-form a,
+.dashboard-body a:hover,
+.dashboard-body a:visited {
+    color: #77A837
+}
+
+.pagination>.active>a,
+.pagination>.active>span,
+.pagination>.active>a:hover,
+.pagination>.active>span:hover,
+.pagination>.active>a:focus,
+.pagination>.active>span:focus {
+    background-color: #77A837;
+    border: #77A837;
+    color: #ffffff;
+}
+
+.progress-bar {
+    background-color: #77A837;
+}
+
+.pagination>li>a,
+.pagination>li>span {
+    color: #77A837;
+}
+
+.pagination>li>a:hover,
+.pagination>li>span:hover,
+.navbar-wp .navbar-nav>li>a:hover,
+.navbar-wp .navbar-nav>li>a:focus {
+    color: #ffffff;
+    background-color: #77A837;
+}
+
+.navbar-wp .navbar-nav>li>a:hover,
+.navbar-wp .navbar-nav>li>a:focus {
+    border-top: 3px solid #77A837;
+}
+
+.navbar-wp {
+    background: #ffffff url('/images/auslsa-header-background.jpg') center top no-repeat;
+    background-size: cover;
+}
+
+.dashboard-body a.btn {
+    color: #ffffff;
+}
+
+ul.bullet li p {
+    margin-top: 10px;
+}
+
+body.home {
+    background-image: url('/images/auslsa-background.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.padding-bottom-80 {
+    padding-bottom: 80px;
+}
+
+body.home footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+body.home h3.banner {
+    margin-bottom: 0px;
+}
+
+body.home .wp-block.hero.block-2 {
+    min-height: 402px;
+}
+
+.entry.note textarea {
+    min-height: 110px;
+}
+
+.dashboard-body .dt-buttons a.btn {
+    color: inherit;
+}
+
+.wrapper>.aside {
+    background-color: #77a837;
+}
+
+.auslsa-icons.multiple .icon {
+    padding: 0px;
+}
+
+img.report-library {
+    max-width: 150px;
+}
+
+
+/**
+* Report Display
+*/
+
+#reportForm .panel-title,
+.report-section-control-buttons,
+.panel-group .panel-heading:after {
+    display: none;
+}
+
+#reportForm .panel,
+#reportForm .panel-heading,
+#reportForm .panel .panel-body {
+    border-width: 0px;
+}
+
+.report-header .company,
+.report-header .year {
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.section-header {
+    padding: 0px 15px;
+}
+
+.section-header .title {
+    /*
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 15px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #77a837;
+    */
+    font-size: 30px;
+    padding: 20px;
+    font-weight: 700;
+    background-color: #77a837;
+    border: 1px solid #ddd;
+    color: #ffffff;
+    margin-bottom: 0px;
+}
+
+.section-textarea .title {
+    font-weight: bold;
+    padding: 0px 15px;
+}
+
+.section-textarea .content {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.section-page .title {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0px 15px;
+    margin-top: 30px;
+    color: #77a837;
+}
+
+.section-grid-header {
+    padding: 0px 15px;
+    margin-top: 15px;
+}
+
+.section-grid-footer {
+    margin-bottom: 20px;
+}
+
+.section-grid-question {
+    margin: 0;
+    border-bottom: 1px solid #ececec;
+}
+
+.section-grid-question .cell {
+    padding: 10px;
+}
+
+.section-grid-question .answer,
+.section-grid-question .benchmark {
+    padding: 0px;
+    padding-bottom: 5px;
+}
+
+.section-grid-header .cell {
+    padding: 10px;
+    font-weight: bold;
+    background-color: #f3f3f3;
+    border-bottom: 1px solid #ddd;
+}
+
+.section-inline .title {
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    float: left;
+    margin-bottom: 0px
+}
+
+.section-inline .content {
+    float: left;
+}
+
+.question-help .title {
+    font-weight: bold;
+}
+
+.question-help-trigger {
+    text-decoration: none;
+    color: #333;
+}
+
+
+/** Popover **/
+
+.tooltip>.arrow {
+    border-width: 0px;
+}

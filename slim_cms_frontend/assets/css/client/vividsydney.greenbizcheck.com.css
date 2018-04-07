@@ -1,0 +1,334 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+
+/* Override CSS for vividsydney.greenbizcheck.com */
+
+footer {
+    background: #fcfcfc;
+    border-top: 1px solid #e0eded;
+}
+
+.footer-image-links img {
+    height: 30px;
+    margin-left: 20px;
+    float: right;
+}
+
+body.home {
+    background-image: url('/images/vivid-background-image.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-rendering: geometricPrecision;
+    -webkit-font-smoothing: antialiased;
+}
+
+body.home .footer,
+body.home #divHeaderWrapper {
+    display: none;
+}
+
+body.home .navbar-wp {
+    background: transparent;
+    border-bottom: none;
+}
+
+body.home .navbar-wp .navbar-nav>li>a {
+    color: #ffffff;
+}
+
+header .navbar-wp .navbar-brand {
+    margin-top: 18px;
+}
+
+section.slice.padding-none {
+    padding-top: 0px;
+}
+
+.navbar-wp .navbar-nav>li>a,
+.navbar-wp .navbar-nav>li>a:hover,
+.navbar-wp .navbar-nav>li>a:focus,
+.navbar-wp .navbar-nav>li>a.dropdown-form-toggle,
+.navbar-wp .navbar-nav>li>a.dropdown-form-toggle:hover,
+.navbar-wp .navbar-nav>li>a.dropdown-form-toggle:focus {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border: 0px;
+    line-height: 98px;
+    background: none;
+    text-transform: none;
+}
+
+.navbar-wp .navbar-nav>li a:hover,
+.navbar-wp .navbar-nav>li>a.dropdown-form-toggle:hover i {
+    color: #0A71B2
+}
+
+.navbar-toggle:hover,
+.navbar-toggle:focus {
+    background-color: #0A71B2;
+    background: #0A71B2;
+    border-color: #0A71B2;
+}
+
+body {
+    background-color: #fcfcfc;
+    background: #fcfcfc;
+}
+
+.navbar-wp .navbar-nav>li>a.dropdown-form-toggle,
+.navbar-wp .navbar-nav>li>a.dropdown-form-toggle:hover,
+.navbar-wp .navbar-nav>li>a.dropdown-form-toggle:focus {
+    padding-top: 40px;
+}
+
+.navbar-wp.navbar-arrow .navbar-nav>li.open>a:after {
+    display: none;
+}
+
+.navbar-toggle-aside-menu {
+    margin-top: 32px;
+}
+
+div.feature-block-black {
+    padding: 30px;
+    color: #ffffff;
+    font-size: 25px;
+    line-height: 32px;
+    margin-top: 375px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+div.feature-block-black p {
+    font-size: 25px;
+    line-height: 32px;
+    margin-bottom: 30px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.navbar-wp .navbar-nav>li>a,
+.navbar-wp .navbar-nav>li>a.dropdown-form-toggle,
+.navbar-wp .navbar-nav>li>a.dropdown-form-toggle:focus,
+.navbar-wp .navbar-nav>li>a.dropdown-form-toggle:hover,
+.navbar-wp .navbar-nav>li>a:focus,
+.navbar-wp .navbar-nav>li>a:hover {
+    line-height: 72px;
+}
+
+.navbar-wp .navbar-nav>li>a {
+    color: #ffffff;
+}
+
+.navbar-wp {
+    background: #000000;
+}
+
+.home-logo {
+    padding: 20px;
+}
+
+
+/* Stakeholder Report */
+
+.report-section-control-buttons,
+.report-section-title {
+    display: none;
+}
+
+#reportForm .panel,
+#reportForm .panel-body {
+    border: 0px;
+}
+
+#reportForm .panel-group {
+    margin: 0px;
+}
+
+.reportContainer .panel-body {
+    padding: 0px;
+}
+
+
+/* 2017 Report */
+
+.padding-none {
+    padding: 0px;
+}
+
+.padding-25 {
+    padding: 25px;
+}
+
+#reportForm h1 {
+    font-size: 50px;
+}
+
+#reportForm h2 {
+    font-size: 30px;
+}
+
+#reportForm h5 {
+    font-size: 20px;
+}
+
+#reportForm .panel.panel-success {
+    border: 1px solid #5cb85c;
+}
+
+#reportForm .panel.panel-black {
+    background-color: #000000;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+#reportForm .panel {
+    margin: 0 0 25px;
+}
+
+#reportForm .panel-default {
+    margin: 0px;
+}
+
+#reportForm .row.data-row {
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#reportForm .row.data-row.total {
+    border-top: 1px solid;
+    margin-top: 5px;
+    padding-top: 6px;
+}
+
+
+/* Icon Blocks */
+
+.wp-block.no-space.arrow-down:after {
+    top: 98%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-top-color: #3498db;
+    border-width: 20px;
+    margin-left: -20px;
+    z-index: 300;
+}
+
+.success {
+    background: #5cb85c !important;
+    color: #fff!important;
+}
+
+.wp-block.no-space.arrow-down.success:after {
+    border-top-color: #5cb85c !important;
+}
+
+.warning {
+    background: #f0ad4e!important;
+    color: #fff!important;
+}
+
+.wp-block.no-space.arrow-down.warning:after {
+    border-top-color: #f0ad4e!important;
+}
+
+.danger {
+    background: #d9534f!important;
+    color: #fff!important;
+}
+
+.wp-block.no-space.arrow-down.danger:after {
+    border-top-color: #d9534f!important;
+}
+
+.primary {
+    background: #0275d8!important;
+    color: #fff!important;
+}
+
+.wp-block.no-space.arrow-down.primary:after {
+    border-top-color: #0275d8!important;
+}
+
+.info {
+    background: #5bc0de!important;
+    color: #fff!important;
+}
+
+.wp-block.no-space.arrow-down.info:after {
+    border-top-color: #5bc0de!important
+}
+
+.wp-block.no-space>.wp-block-body {
+    min-height: auto;
+    margin-top: 0px;
+    padding: 10px 20px 20px 20px;
+}
+
+.wp-block.no-space.light>.wp-block-body {
+    min-height: 250px;
+    padding: 40px 20px 25px 20px;
+}
+
+.report.page-title {
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+.report.question,
+.report.answer {
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 0px
+}
+
+.report.question {
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.report.page hr {
+    border-color: #000000;
+}
+
+.wp-block.light p.summary-text {
+    font-size: 12px;
+    margin-top: 15px;
+    color: #909fa7;
+}
+
+.wp-block.light ul.summary-text,
+.wp-block.light ul.summary-text li ul {
+    list-style: circle;
+    font-size: 12px;
+    color: #909fa7;
+    margin-left: 15px;
+}
+
+
+/* Dashboard Environment Panels */
+
+.dashboard-body .environment-panel .no-space.light {
+    background-color: #fff;
+}
+
+.dashboard-body .environment-panel {
+    margin-bottom: 20px;
+}
+
+.dashboard-body .environment-panel h5 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}

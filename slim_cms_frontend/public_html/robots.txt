@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /members/
+Disallow: /_images/
+Disallow: /images/
+Disallow: /download/
+Disallow: /_docs/
+Disallow: /docs/

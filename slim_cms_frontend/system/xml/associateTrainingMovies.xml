@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<associateTrainingMovies>
+	<movie name="GreenBizCheck January 2011 Conference" path="Jan_2011_GreenBizCheck_Conference" file="/_images/movies/Jan_2011_GBC_Conference.m4v" splash="/_images/movies/greenbizcheck_january_2011_conference.jpg" />
+	<movie name="GreenBizCheck January 2011 Conference Part 2" path="GreenBizCheck_January_2011_Conference_Part_2" file="/_images/movies/gbc_jan_11_training_part_2_james_and_owners.m4v" splash="/_images/movies/greenbizcheck_january_2011_james_and_owners.jpg" />
+	<movie name="GreenBizCheck January 2011 Conference - Vic on Success" path="GreenBizCheck_January_2011_Conference_Vic_on_Success" file="/_images/movies/New_GBC_Owners_and_Vic_on_Success_Jan_11_1.m4v" splash="/_images/movies/new_greenbizcheck_owners_and_vic_on_success.jpg" />
+</associateTrainingMovies>

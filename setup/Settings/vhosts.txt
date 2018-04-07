@@ -1,0 +1,72 @@
+<VirtualHost *:80>
+    ServerAdmin td@greenbizcheck.com
+    DocumentRoot "/Users/tim/repos/GreenBizCheck/greenbizcheck.com/public_html/"
+
+	# //Root Path
+	<Directory /Users/tim/repos/GreenBizCheck/greenbizcheck.com/public_html>
+		AllowOverride none
+		Options FollowSymLinks
+		Order allow,deny
+		allow from all
+		<IfModule mod_rewrite.c>
+			RewriteEngine On
+			RewriteCond %{REQUEST_FILENAME} !-d
+			RewriteCond %{REQUEST_FILENAME} !-f
+			RewriteRule . index.php [QSA,L]
+		</IfModule>
+    </Directory>
+
+	# //api
+	<Directory /Users/tim/repos/GreenBizCheck/greenbizcheck.com/public_html/api>
+		RewriteEngine On
+		RewriteOptions inherit
+	</Directory>
+
+	# //fonts
+	<Directory /Users/tim/repos/GreenBizCheck/greenbizcheck.com/public_html/fonts>
+		RewriteEngine off
+		Options -Indexes
+	</Directory>
+
+	# //Upload
+	<Directory /Users/tim/repos/GreenBizCheck/greenbizcheck.com/public_html/upload>
+		RewriteEngine off
+		Options -Indexes
+	</Directory>
+
+	# //Download
+	<Directory /Users/tim/repos/GreenBizCheck/greenbizcheck.com/public_html/download>
+		RewriteEngine off
+		Options -Indexes
+	</Directory>
+
+	# //stamp
+	<Directory /Users/tim/repos/GreenBizCheck/greenbizcheck.com/public_html/stamp>
+		RewriteEngine off
+		Options -Indexes
+		XSendFile on
+		XSendFilePath /Users/tim/shared/stamp_cache
+	</Directory>
+
+	ServerName greenbizcheck.local
+	ServerAlias www.greenbizcheck.local
+	ServerAlias www.ecobizcheck.local
+	ServerAlias ecobizcheck.local
+	ServerAlias socialenterpriseawards.greenbizcheck.local
+	ServerAlias www.thesupplychaintracker.local
+	ServerAlias staples.ecobizcheck.local
+	ServerAlias supplychaindemo.ipbiz.local
+	ServerAlias tag.greenbizcheck.local
+	ServerAlias demo.ecobizcheck.local
+	ServerAlias demo.greenbizcheck.local
+	ServerAlias twe.greenbizcheck.local
+	ServerAlias auslsa.greenbizcheck.local
+	ServerAlias sea.greenbizcheck.local
+	ServerAlias climaterisk.greenbizcheck.local
+	ServerAlias healthchecks.business-sa.local
+	ServerAlias bankaustralia.greenbizcheck.local
+	ServerAlias corporatespend.greenbizcheck.local
+	ServerAlias anz.greenbizcheck.local
+	ServerAlias vividsydney.greenbizcheck.local
+    ErrorLog "logs/greenbizcheck.local.log"
+</VirtualHost>

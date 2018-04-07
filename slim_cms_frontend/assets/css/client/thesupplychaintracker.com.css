@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/* CSS Document */
+/* Override CSS for thesupplychaintracker.com */
+
+body, footer {
+	background-color:#ffffff;
+	background:#ffffff;
+}
+
+footer {
+	border-top: 1px solid #e0eded;	
+}
+
+.footer-image-links img {
+	height:50px;
+	margin-left:20px;
+	float:right;	
+}
+
+.pl125 {
+	padding-left:125px;	
+}
+
+.scst.icon-block.icon-block-1 .icon-block-item,
+.scst.icon-block.icon-block-1 .icon-block-body {
+	display:inline-block;	
+}
+.scst.icon-block.icon-block-1 .icon-block-body {
+	width:75%;	
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+}

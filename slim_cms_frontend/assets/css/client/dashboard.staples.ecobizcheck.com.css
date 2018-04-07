@@ -1,0 +1,54 @@
+/* Staples Dashboard CSS */
+
+/* Dashboard CSS */
+
+.dashboard-body .wrapper > .aside,
+.dashboard-body .topnavbar .nav-wrapper,
+.dashboard-body .topnavbar,
+.dashboard-body .sidebar,
+.dashboard-body .topnavbar .navbar-header {
+	  background: rgb(204,0,0);
+}
+
+.bg-staples {
+	background: rgb(204,0,0);
+	color:#ffffff;
+}
+
+.dashboard-body .brand-logo img {
+	max-height:55px;
+}
+
+.dashboard-body .topnavbar .navbar-header .brand-logo {
+	padding:0px;
+}
+
+.dashboard-body .sidebar .nav > li > a, 
+.dashboard-body .sidebar .nav > li > .nav-item,
+.dashboard-body .topnavbar .navbar-nav > li > a,
+.dashboard-body .topnavbar .navbar-nav > .open > a {
+	color:#ffffff;
+}
+
+.dashboard-body .sidebar .nav > li > a:focus, 
+.dashboard-body .sidebar .nav > li > .nav-item:focus,
+.dashboard-body .sidebar .nav > li > a:hover,
+.dashboard-body .sidebar .nav > li > .nav-item:hover,
+.dashboard-body .topnavbar .navbar-nav li a:hover {
+	color:#e1e2e3;
+}
+
+body.dashboard-body {
+    background-color: #f5f7fa;
+}
+
+.panel.contract-category-panel h3 {
+    margin-top:10px;
+    margin-bottom:10px;
+    color:rgb(101, 101, 101);
+    text-decoration:none;
+}
+
+a.contract-category-panel-link {
+    text-decoration:none;
+}

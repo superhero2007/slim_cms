@@ -1,0 +1,40 @@
+/**
+ * Filter CSS
+ */
+
+/* General Styling */
+
+.filter-results {
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.filter-results .filter-container {
+    padding-top:10px;
+}
+
+/* Comparator */
+ .filter-results .filter-row .comparator {
+    margin-top: 13px;
+    margin-bottom: 0px;
+ }
+
+ .filter-results .filter-row:nth-child(1) .comparator {
+    margin-top: 38px;
+ }
+
+ /* Delete Button */
+ .filter-results .filter-row .delete-filter {
+    margin-top: 7px;
+    margin-bottom: 0px;
+ }
+
+ .filter-results .filter-row:nth-child(1) .delete-filter {
+    margin-top: 30px;
+ }
+
+
+ /* Labels */
+ .filter-results .filter-row:nth-child(n+2) label.field {
+    display:none;
+ }

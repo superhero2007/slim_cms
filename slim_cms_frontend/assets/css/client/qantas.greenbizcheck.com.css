@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+
+/* Override CSS for qantas.greenbizcheck.com */
+
+body.home {
+    background-image: url('/images/qantas-background.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-rendering: geometricPrecision;
+    -webkit-font-smoothing: antialiased;
+}
+
+body.home footer,
+body.home #divHeaderWrapper {
+    display: none;
+}
+
+body.home h1 {
+    font-family: Oxygen, sans-serif;
+    letter-spacing: 3px;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 1.1em;
+}
+
+body.home .btn {
+    font-weight: 700;
+}
+
+.base {
+    background-color: #EA1921;
+}
+
+.btn-base:before,
+.btn-base.active,
+.btn-base:active,
+.btn-base:focus,
+.btn-base:hover,
+.open .dropdown-toggle.btn-base {
+    background-color: #d61f26;
+}
+
+.btn-base {
+    background-color: #EA1921;
+    border: #d61f26;
+}
+
+header .navbar-wp .navbar-brand {
+    margin-top: 17px;
+    margin-bottom: 16px;
+}
+
+ul.members-menu-list li .icon-block-item:hover i,
+.wp-block.no-space.arrow-right.base:after {
+    color: #EA1921;
+}
+
+.wp-block.no-space.arrow-right.base:after {
+    border-left-color: #EA1921;
+}
+
+footer {
+    background: #fcfcfc;
+    border-top: 1px solid #e0eded;
+}
+
+.footer-image-links img {
+    height: 30px;
+    margin-left: 20px;
+    float: right;
+}
+
+body {
+    background: #fcfcfc;
+}
+
+.navbar-wp .navbar-nav>li>a:focus,
+.navbar-wp .navbar-nav>li>a:hover {
+    color: #fff;
+    background-color: #EA1921;
+    border-top: 3px solid #EA1921;
+}

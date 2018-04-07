@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+/* Override CSS for www.ecobizcheck.com */
+
+
+/* Home Page */
+
+body.home {
+    background-image: url('/images/newyork-skyline.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+body.home footer {
+    display: none;
+}
+
+body.home .navbar-wp {
+    border-bottom: 0px;
+    background: transparent;
+}
+
+body.home .navbar-wp {
+    border-bottom: 0px;
+    background: transparent;
+}
+
+
+/* Used for dark backgrounds */
+
+@media(min-width:992px) {
+    body.home .navbar-wp .navbar-nav>li>a,
+    body.home .navbar-wp .navbar-nav>li>a.dropdown-form-toggle,
+    body.home .navbar-wp .navbar-nav>li>a.dropdown-form-toggle:hover {
+        color: #ffffff;
+    }
+    body.home,
+    body.home h4,
+    body.home h1,
+    body.home a,
+    body.home a:hover,
+    body.home a:visited,
+    body.home a:active {
+        color: #ffffff;
+    }
+}
+
+body.home .navbar-toggle {
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+body.home img.header-image {
+    display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url(/images/ecobizcheck-cloud-logo-white.png) no-repeat;
+    width: 220px;
+    /* Width of new image */
+    height: 35px;
+    /* Height of new image */
+    padding-left: 220px;
+    /* Equal to width of new image */
+    background-size: cover;
+}
+
+.footer-image-links img {
+    height: 30px;
+    margin-left: 20px;
+    float: right;
+}
+
+body.home h1.title {
+    font-family: 'Work Sans', Helvetica, Arial, sans-serif;
+    font-size: 48px;
+    line-height: 1.1;
+    letter-spacing: .5px;
+    color: #fff;
+    margin-top: 25px;
+    text-transform: none;
+}
+
+body.home p.sub-heading {
+    font-family: 'Oxygen', sans-serif;
+    margin-top: 25px;
+    color: #fff;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 1.6;
+    color: #d8d8d8;
+}

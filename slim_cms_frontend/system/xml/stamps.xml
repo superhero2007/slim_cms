@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stamps>
+	<group path="" label="GreenBizCheck Certification">
+		<stamp label="Certification In Progress">
+			<file src="greenbizcheck_inprogress_88x88" width="88" height="88" />
+			<file src="greenbizcheck_inprogress_125x125" width="125" height="125" />
+			<file src="greenbizcheck_inprogress_400x400" width="400" height="400" />
+		</stamp>
+		<stamp label="Bronze Level Certified">
+			<file src="greenbizcheck_bronze_88x88" width="88" height="88" />
+			<file src="greenbizcheck_bronze_125x125" width="125" height="125" />
+			<file src="greenbizcheck_bronze_400x400" width="400" height="400" />
+			<file src="greenbizcheck_bronze_1500x1500" width="1500" height="1500" />
+		</stamp>
+		<stamp label="Silver Level Certified">
+			<file src="greenbizcheck_silver_88x88" width="88" height="88" />
+			<file src="greenbizcheck_silver_125x125" width="125" height="125" />
+			<file src="greenbizcheck_silver_400x400" width="400" height="400" />
+			<file src="greenbizcheck_silver_1500x1500" width="1500" height="1500" />
+		</stamp>
+		<stamp label="Gold Level Certified">
+			<file src="greenbizcheck_gold_88x88" width="88" height="88" />
+			<file src="greenbizcheck_gold_125x125" width="125" height="125" />
+			<file src="greenbizcheck_gold_400x400" width="400" height="400" />
+			<file src="greenbizcheck_gold_1500x1500" width="1500" height="1500" />
+		</stamp>
+		<stamp label="Business Certification">
+			<file src="greenbizcheck_business_certification_88x88" width="88" height="88" />
+			<file src="greenbizcheck_business_certification_125x125" width="125" height="125" />
+			<file src="greenbizcheck_business_certification_400x400" width="400" height="400" />
+			<file src="greenbizcheck_business_certification_1500x1500" width="1500" height="1500" />
+		</stamp>
+	</group>
+	<group path="recruitment" name="Recruitment Industry Certification">
+		<!--<stamp label="Certification In Progress">
+			<file src="greenbizcheck_recruitment_inprogress_88x88" width="88" height="88" />
+			<file src="greenbizcheck_recruitment_inprogressd_125x125" width="125" height="125" />
+			<file src="greenbizcheck_recruitment_inprogress_400x400" width="400" height="400" />
+		</stamp>-->
+		<stamp label="Bronze Level Certified">
+			<file src="greenbizcheck_recruitment_bronze_88x88" width="88" height="88" />
+			<file src="greenbizcheck_recruitment_bronze_125x125" width="125" height="125" />
+			<file src="greenbizcheck_recruitment_bronze_400x400" width="400" height="400" />
+		</stamp>
+		<stamp label="Silver Level Certified">
+			<file src="greenbizcheck_recruitment_silver_88x88" width="88" height="88" />
+			<file src="greenbizcheck_recruitment_silver_125x125" width="125" height="125" />
+			<file src="greenbizcheck_recruitment_silver_400x400" width="400" height="400" />
+		</stamp>
+		<stamp label="Gold Level Certified">
+			<file src="greenbizcheck_recruitment_gold_88x88" width="88" height="88" />
+			<file src="greenbizcheck_recruitment_gold_125x125" width="125" height="125" />
+			<file src="greenbizcheck_recruitment_gold_400x400" width="400" height="400" />
+		</stamp>
+		<stamp label="Recruitment Industry Certification">
+			<file src="greenbizcheck_recruitment_88x88" width="88" height="88" />
+			<file src="greenbizcheck_recruitment_125x125" width="125" height="125" />
+			<file src="greenbizcheck_recruitment_400x400" width="400" height="400" />
+		</stamp>
+	</group>
+	<group path="it" name="IT Certification">
+		<stamp label="IT Certification">
+			<file src="greenbizcheck_it_certification_88x88" width="88" height="88" />
+			<file src="greenbizcheck_it_certification_125x125" width="125" height="125" />
+			<file src="greenbizcheck_it_certification_400x400" width="400" height="400" />
+		</stamp>
+	</group>
+</stamps>

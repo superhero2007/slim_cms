@@ -1,0 +1,528 @@
+/*
+style.css
+This is the main style sheet used for the GreenBizCheck admin panel
+*/
+
+html, body{
+	height:100%;
+}
+
+body {
+	font-family:arial;
+	font-size:12px;
+	min-width:600px;
+	margin:0; padding:0;
+	background-color:#222222;
+	height:100%;
+}
+
+div#top_bar {
+	width:84%;
+	height:20px;
+	text-align:right;
+	background-color:#d7d7d7;
+	float:right;
+	padding:5px;
+	border-bottom: 1px solid #c6c6c6;
+	vertical-align:middle;
+}
+
+div#navigation_bar {
+	width:15%;
+	float:left;
+	background-color:#222222;
+	padding-bottom:50px;
+}
+
+div#content {
+	width:84%;
+	float:right;
+	padding:5px;
+	background-color:#FFFFFF;
+	min-height:1050px;
+}
+
+div#welcome {
+	text-align:right;
+	float:right;
+}
+
+div#page_title {
+	text-align:left;
+	float:left;
+}
+
+p.server_location {
+	text-align:center;
+	color:#E62038;
+	font-size:14px;
+	text-decoration:bold;
+}
+
+div#bottom {
+	background-color:#FFFFFF;
+	clear:both;
+}
+
+/* Navigation Items */
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+ul li {
+	border-bottom: 1px solid #313131;
+}
+ul li a {
+	display: block;
+	line-height: 2em;
+	text-decoration: none;
+	padding: 0 1em;
+	color: #FFF;
+	font-size: 10pt;
+}
+ul.admin_nav li a:hover {
+	background-color: #111111;
+	/*color: #000;*/
+	text-decoration:none;
+	background-image: url('../_images/admin_nav_arrow.png');
+	background-repeat:no-repeat;
+	background-position: right;
+}
+
+ul li ul li {
+	border-bottom: none;
+	border-top: 1px solid #313131;
+}
+ul li ul li a {
+	padding-left: 2em;
+	font-weight: normal;
+}
+ul li ul li ul li a {
+	padding-left: 3em;
+}
+
+.error {
+	color: #F00;
+}
+
+input.form_error {
+	border: 1px solid #F00;
+}
+
+/**
+Legacy main.css
+**/
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Arial";
+	font-size: 12px;
+}
+a img {
+	border: none;
+}
+a {
+	text-decoration: none;
+	color: #0000FF;
+}
+a:hover {
+	text-decoration: underline;
+}
+h1 {
+	margin: 0;
+	padding: 0;
+	font-size: 1.5em;
+}
+
+h2 {
+    font-size: 1.25em;
+}
+.clear {
+	clear: both;
+}
+p {
+	line-height: 2em;
+}
+span.options {
+	padding-left: 1em;
+}
+/* tables */
+/*
+Colours
+Table inner grey: 	#d7d7d7
+Table border:		#c6c6c6		
+*/
+
+table.editTable tbody th {
+	width: 15em;
+	background-color: #d7d7d7;
+}
+table input[type = "text"],
+table textarea {
+	width: 100%;
+	border: none;
+	font-size: 12px;
+	font-family: arial;
+}
+table {
+	background-color: #c6c6c6;
+	margin: 10px 0pt 15px;
+	font-size: 12px;
+	width: 100%;
+	text-align: left;
+}
+table thead tr th,
+table tfoot tr th {
+	background-color: #d7d7d7;
+	padding: 7px;
+}
+table thead tr .header {
+	background-image: url("/_images/tablesorter/bg.gif");
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+table tbody td,
+table tbody th {
+	color: #3D3D3D;
+	padding: 7px;
+	background-color: #FFF;
+	vertical-align: top;
+}
+table tbody tr.odd td,
+table tbody tr.odd th {
+	background-color:#F9F9F9;
+}
+table thead tr .headerSortUp {
+	background-image: url("/_images/tablesorter/asc.gif");
+}
+table thead tr .headerSortDown {
+	background-image: url("/_images/tablesorter/desc.gif");
+}
+table thead tr .headerSortDown,
+table thead tr .headerSortUp {
+	background-color: #8dbdd8;
+}
+table tfoot th {
+	text-align: center;
+}
+
+/*End of tables */
+
+ul#tabs {
+	border-top: 1px solid #000;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+ul#tabs li {
+	border: 1px solid #000;
+	border-top: none;
+	margin: 0 1em 0 0;
+	float: left;
+}
+ul#tabs li a {
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+	display: block;
+	padding: 0 1em;
+	line-height: 3em;
+}
+ul#tabs li a:hover {
+	background-color: #EEE;
+}
+p#breadcrumb {
+	border: 1px dotted #000;
+	line-height: 2em;
+	padding: 0 1em;
+}
+/* Main Flora Style Sheet for jQuery UI ui-datepicker */
+#ui-datepicker-div, .ui-datepicker-inline {
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 14px;
+	padding: 0;
+	margin: 0;
+	background: #E0F4D7;
+	width: 185px;
+}
+#ui-datepicker-div {
+	display: none;
+	border: 1px solid #FF9900;
+	z-index: 10;
+}
+.ui-datepicker-inline {
+	float: left;
+	display: block;
+	border: 0;
+}
+.ui-datepicker-rtl {
+	direction: rtl;
+}
+.ui-datepicker-dialog {
+	padding: 5px !important;
+	border: 4px ridge #83C948 !important;
+}
+button.ui-datepicker-trigger {
+	width: 25px;
+}
+img.ui-datepicker-trigger {
+	margin: 2px;
+	vertical-align: middle;
+}
+.ui-datepicker-prompt {
+	float: left;
+	padding: 2px;
+	background: #E0F4D7;
+	color: #000;
+}
+* html .ui-datepicker-prompt {
+	width: 185px;
+}
+.ui-datepicker-control, .ui-datepicker-links, .ui-datepicker-header, .ui-datepicker {
+	clear: both;
+	float: left;
+	width: 100%;
+	color: #FFF;
+}
+.ui-datepicker-control {
+	background: #FF9900;
+	padding: 2px 0px;
+}
+.ui-datepicker-links {
+	background: #E0F4D7;
+	padding: 2px 0px;
+}
+.ui-datepicker-control, .ui-datepicker-links {
+	font-weight: bold;
+	font-size: 80%;
+	letter-spacing: 1px;
+}
+.ui-datepicker-links label {
+	padding: 2px 5px;
+	color: #888;
+}
+.ui-datepicker-clear, .ui-datepicker-prev {
+	float: left;
+	width: 34%;
+}
+.ui-datepicker-rtl .ui-datepicker-clear, .ui-datepicker-rtl .ui-datepicker-prev {
+	float: right;
+	text-align: right;
+}
+.ui-datepicker-current {
+	float: left;
+	width: 30%;
+	text-align: center;
+}
+.ui-datepicker-close, .ui-datepicker-next {
+	float: right;
+	width: 34%;
+	text-align: right;
+}
+.ui-datepicker-rtl .ui-datepicker-close, .ui-datepicker-rtl .ui-datepicker-next {
+	float: left;
+	text-align: left;
+}
+.ui-datepicker-header {
+	padding: 1px 0 3px;
+	background: #83C948;
+	text-align: center;
+	font-weight: bold;
+	height: 1.3em;
+}
+.ui-datepicker-header select {
+	background: #83C948;
+	color: #000;
+	border: 0px;
+	font-weight: bold;
+}
+.ui-datepicker {
+	background: #CCC;
+	text-align: center;
+	font-size: 100%;
+}
+.ui-datepicker a {
+	display: block;
+	width: 100%;
+}
+.ui-datepicker-title-row {
+	background: #B1DB87;
+	color: #000;
+}
+.ui-datepicker-title-row .ui-datepicker-week-end-cell {
+	background: #B1DB87;
+}
+.ui-datepicker-days-row {
+	background: #FFF;
+	color: #666;
+}
+.ui-datepicker-week-col {
+	background: #B1DB87;
+	color: #000;
+}
+.ui-datepicker-days-cell {
+	color: #000;
+	border: 1px solid #DDD;
+}
+.ui-datepicker-days-cell a {
+	display: block;
+}
+.ui-datepicker-week-end-cell {
+	background: #E0F4D7;
+}
+.ui-datepicker-unselectable {
+	color: #888;
+}
+.ui-datepicker-week-over, .ui-datepicker-week-over .ui-datepicker-week-end-cell {
+	background: #B1DB87 !important;
+}
+.ui-datepicker-days-cell-over, .ui-datepicker-days-cell-over.ui-datepicker-week-end-cell {
+	background: #FFF !important;
+	border: 1px solid #777;
+}
+* html .ui-datepicker-title-row .ui-datepicker-week-end-cell {
+	background: #B1DB87 !important;
+}
+* html .ui-datepicker-week-end-cell {
+	background: #E0F4D7 !important;
+	border: 1px solid #DDD !important;
+}
+* html .ui-datepicker-days-cell-over {
+	background: #FFF !important;
+	border: 1px solid #777 !important;
+}
+* html .ui-datepicker-current-day {
+	background: #83C948 !important;
+}
+.ui-datepicker-today {
+	background: #B1DB87 !important;
+}
+.ui-datepicker-current-day {
+	background: #83C948 !important;
+}
+.ui-datepicker-status {
+	background: #E0F4D7;
+	width: 100%;
+	font-size: 80%;
+	text-align: center;
+}
+#ui-datepicker-div a, .ui-datepicker-inline a {
+	cursor: pointer;
+	margin: 0;
+	padding: 0;
+	background: none;
+	color: #000;
+}
+.ui-datepicker-inline .ui-datepicker-links a {
+	padding: 0 5px !important;
+}
+.ui-datepicker-control a, .ui-datepicker-links a {
+	padding: 2px 5px !important;
+	color: #000 !important;
+}
+.ui-datepicker-title-row a {
+	color: #000 !important;
+}
+.ui-datepicker-control a:hover {
+	background: #FDD !important;
+	color: #333 !important;
+}
+.ui-datepicker-links a:hover, .ui-datepicker-title-row a:hover {
+	background: #FFF !important;
+	color: #333 !important;
+}
+.ui-datepicker-multi .ui-datepicker {
+	border: 1px solid #83C948;
+}
+.ui-datepicker-one-month {
+	float: left;
+	width: 185px;
+}
+.ui-datepicker-new-row {
+	clear: left;
+}
+.ui-datepicker-cover {
+	display: none;
+	display/**/: block;
+	position: absolute;
+	z-index: -1;
+	top: -4px;
+	left: -4px;
+	width: 193px;
+	height: 200px;
+}
+
+/* jQuery Autocompelte */
+.ac_results {
+	padding: 0px;
+	border: 1px solid black;
+	background-color: white;
+	overflow: hidden;
+	z-index: 99999;
+}
+
+.ac_results ul {
+	width: 100%;
+	list-style-position: outside;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.ac_results li {
+	margin: 0px;
+	padding: 2px 5px;
+	cursor: default;
+	display: block;
+	/* 
+	if width will be 100% horizontal scrollbar will apear 
+	when scroll mode will be used
+	*/
+	/*width: 100%;*/
+	font: menu;
+	font-size: 12px;
+	/* 
+	it is very important, if line-height not setted or setted 
+	in relative units scroll will be broken in firefox
+	*/
+	line-height: 16px;
+	overflow: hidden;
+}
+
+.ac_loading {
+	background: white url("/_images/indicator.gif") right center no-repeat;
+}
+
+.ac_odd {
+	background-color: #eee;
+}
+
+.ac_over {
+	background-color: #0A246A;
+	color: white;
+}
+
+.cke_button_send_email .cke_label {
+    display: inline !important;
+}
+/* Responsibile Contact Rendering in Client Edit */
+ul.responsible-contacts {
+	margin: 0 !important;
+	padding: 0em 0em 0em 1em !important;
+}
+ul.responsible-contacts li {
+	line-height: 1.1em !important;
+	border-bottom: 0px solid #FFFFFF;
+	border-bottom: none;
+}
+
+.error {
+	color: #F00;
+}
+
+input.form_error {
+	border: 1px solid #F00;
+}

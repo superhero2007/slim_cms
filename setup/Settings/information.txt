@@ -1,0 +1,15 @@
+Make sure that you have PHP 7 and php-xsl installed.
+
+Install the greenbiz database using the SQL file in this folder
+
+Clone api.greenbizcheck.com
+copy settings.php to /src and update your database details to suit
+
+Clone greenbizcheck.com
+copy config.php to the root and update your database details to suit
+
+Create an apache vhost using the details vhost.txt file attached. Update your paths to suit your development environment.
+
+Create a local map for the domains listed in the vhosts.txt file eg; 
+greenbizcheck.local 127.0.0.1
+www.greenbizcheck.local 127.0.0.1

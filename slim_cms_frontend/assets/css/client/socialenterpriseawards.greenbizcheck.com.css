@@ -1,0 +1,313 @@
+/*
+Social Enterprise Awards Overide CSS 
+*/
+
+body {
+    background-color: transparent;
+    background: transparent;
+    background-image: url('/images/social-enterprise-awards-background.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "GT-Walsheim-Regular", Helvetica, Arial, sans-serif !important;
+    font-size: 15px;
+}
+
+body.dashboard-body {
+    background-color: #f5f7fa;
+    background: #f5f7fa;
+}
+
+@media screen and (max-width: 770px) {
+    footer {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+footer {
+    background: #000000;
+    border-top: none;
+    bottom: 0px;
+    width: 100%;
+}
+
+body.dashboard-body footer {
+    background: none;
+    border-top: 1px solid #e4eaec;
+    bottom: 0px;
+    width: 100%;
+}
+
+.footer-image-links img {
+    height: 30px;
+    margin-left: 20px;
+    float: right;
+}
+
+.slice.white {
+    background: transparent !important;
+    background-color: transparent !important;
+}
+
+.navbar-wp {
+    background: transparent !important;
+    border-bottom: none;
+}
+
+.pg-opt {
+    border: none;
+    background: transparent !important;
+}
+
+.pg-opt .container {
+    background: #ffffff;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.body-content .slice.white {
+    padding-top: 0px;
+}
+
+.body-content .container {
+    background: #ffffff;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-top: 30px;
+}
+
+header .navbar-wp .navbar-brand {
+    margin-top: 62px;
+    margin-bottom: 40px;
+}
+
+header .navbar-wp a.navbar-brand img.header-image {
+    max-width: 100%;
+}
+
+ul.nav.navbar-nav.navbar-right {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    margin-bottom: 15px;
+}
+
+body.dashboard-body ul.nav.navbar-nav.navbar-right {
+    position: inherit;
+    bottom: inherit;
+    right: inherit;
+    margin-bottom: inherit;
+}
+
+.navbar-wp .navbar-nav>li>a {
+    color: #ffffff;
+    text-transform: none;
+}
+
+.pg-opt .page-title {
+    display: none;
+}
+
+.pg-opt .breadcrumbs {
+    width: 100%;
+}
+
+.pg-opt ol.breadcrumb {
+    float: left;
+    text-transform: uppercase;
+    width: 100%;
+    border-bottom: 1px solid #b6b5b5;
+    font-size: 12px;
+}
+
+.pg-opt .breadcrumb a {
+    color: #545555;
+}
+
+.breadcrumb>li+li:before {
+    color: #545555;
+    padding-right: 0px;
+}
+
+.navbar-wp .navbar-nav>li>a {
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    transition: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-bottom: 3px solid transparent;
+}
+
+li.dropdown-aux {
+    display: none;
+}
+
+.navbar-wp .navbar-nav>li>a:hover,
+.navbar-wp .navbar-nav>li>a:focus {
+    background-color: transparent;
+    border-bottom: 3px solid #00add3;
+    border-top: 3px solid transparent;
+}
+
+a.default-link,
+a,
+.white a {
+    color: #00add3;
+    text-decoration: none;
+}
+
+.navbar-toggle {
+    border: #ffffff;
+    color: #ffffff;
+}
+
+footer {
+    padding-top: 50px;
+    padding-bottom: 125px;
+    color: #ffffff;
+}
+
+footer .container {
+    padding: 0px;
+}
+
+footer .footer-copyright {
+    padding-top: 20px;
+    font-weight: 100;
+    font-size: 12px;
+}
+
+footer .footer-recognition {
+    border-top-width: 20px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+footer .footer-image-links {
+    text-align: center;
+}
+
+footer .footer-image-links p {
+    margin-bottom: 0px;
+    line-height: 10px;
+    font-size: 12px;
+}
+
+footer .footer-image-links img {
+    margin-left: 0px;
+    float: none;
+}
+
+footer .footer-links {
+    text-align: right;
+}
+
+footer .footer-links a {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+footer .footer-social-links {
+    padding-top: 70px;
+    font-size: 30px;
+    text-align: right;
+}
+
+footer .footer-social-links a {
+    color: #ffffff;
+    margin-left: 20px;
+}
+
+footer .footer-social-links a:focus {
+    text-decoration: none;
+}
+
+.btn-b-white,
+.btn-b-dark {
+    border: 2px solid #000000;
+    color: #000000;
+}
+
+.btn-b-white:hover {
+    border: 2px solid #000000;
+    background-color: #000000;
+}
+
+ul.members-menu-list li .icon-block-item:hover i {
+    color: #ffffff;
+}
+
+.members-menu-list li a.icon-item-link {
+    color: #000000;
+}
+
+.members-menu-list {
+    margin-bottom: 20px;
+    padding-left: 0px;
+}
+
+.members-menu-list li {
+    padding: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #00add3;
+}
+
+ol {
+    list-style: decimal;
+    padding-left: 35px;
+}
+
+ul {
+    list-style: disc;
+    padding-left: 35px;
+}
+
+ol li,
+ul li {
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+
+body.dashboard-body ol li,
+body.dashboard-body ul li {
+    margin-bottom: inherit;
+    padding-left: inherit;
+}
+
+ul.entry.sections {
+    padding-left: 0px;
+    list-style: none;
+}
+
+ul.entry.sections li,
+ol.breadcrumb li,
+ul.parsley-errors-list li {
+    margin: 0px;
+    padding: 0px;
+}
+
+@media (max-width: 992px) {
+    footer .footer-image-links,
+    footer .footer-links,
+    footer .footer-social-links {
+        text-align: left;
+    }
+    footer .footer-social-links a {
+        margin-left: 0px;
+        margin-right: 20px;
+    }
+    footer .footer-links {
+        margin-top: 20px;
+    }
+}

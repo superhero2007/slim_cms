@@ -1,0 +1,9 @@
+{
+    "require": {
+        "joshcam/mysqli-database-class": "dev-master",
+        "phpoffice/phpspreadsheet": "^1.1",
+        "oat-sa/lib-beeme": "dev-master",
+        "slim/slim": "2.6.1",
+        "jpgraph/jpgraph": "^4.0"
+    }
+}
